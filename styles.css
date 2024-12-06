@@ -1,0 +1,127 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+#imaginires {
+    background-color: #1E3A8A;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 5px auto;
+}
+
+#imaginires img {
+    width: 460px;
+    height: 325px;
+    padding: 3px;
+    margin: 10px;
+    border: 2px solid #fff;
+    border-radius: 7px;
+    opacity: 85%;
+}
+
+.header-container {
+    height: 50px;
+    width: 90%; 
+    margin: 120px auto 20px; 
+    align-items: left;
+    margin-top: 40px; 
+    padding: 30px; 
+    background-color: #f5ccab; 
+    border: 5px solid black; 
+    text-align: left; 
+}
+
+.header-container h1 {
+    margin: 0;
+    color: #9FBAFF; 
+    font-size: 2em; 
+    font-weight: bold; 
+}
+
+.header-container a {
+    margin-top: 10px;
+    color: #007bff; 
+    text-decoration: underline; 
+    font-size: 1.2em; 
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #0056b3;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    text-decoration: underline; 
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+th {
+    font-size: 15px;
+    font-weight: bolder;
+}
+table th, table td {
+    border: 1px solid #A780F3;
+    padding: 1px;
+    text-align: center;
+}
+
+.network-structure {
+    background-color: #eaf4f8;
+    padding: 20px;
+    border: 2px solid #D75B43;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 0;
+}
+
+.network-details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.network-details ul li {
+    margin: 5px 0;
+}
+
+.slideshow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.slideshow .slide {
+    width: 150px;
+    height: 100px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    transition: all 0.3s ease;
+}
+
+.slideshow .slide.active {
+    border: 2px solid #007bff;
+    transform: scale(1.1);
+}
